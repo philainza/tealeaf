@@ -8,6 +8,8 @@ puts h.fetch(:b)
 h[:e] = 5
 puts h
 
+# part 3
+
 h.each do |key, value|
 	if value < 3.5
 		h.delete(key)
